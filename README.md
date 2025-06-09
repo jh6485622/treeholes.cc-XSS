@@ -1,7 +1,7 @@
 # treeholes.cc-XSS
 ## XSS IN TREE HOLES
 # Web site:
-  https://treeholes.cc/?treeholename= {HTML SCRIPT HERE}
+  treeholes.cc/?treeholename= <-- XSS CODE HERE
 # Payload tested:
   <script>{code here}</script>
-  
+  It could be anything you want.
